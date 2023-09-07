@@ -3,20 +3,45 @@
   margin: 0;
   box-sizing: border-box;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 body{
   height: 100vh;
-  animation: animate 5s ease infinite;
+  animation: animate 6s ease-in-out infinite;
 }
+
 @keyframes animate{
   0%{
-    background-color:  #00aeff;
+    background-color:  #ff7300;
+  }
+  25%{
+    background-color: #2fe916;
   }
   50%{
-    background-color: #e9168a;
+    backguond-color:rgb(0, 174, 255);
+  }
+  75%{
+    background-color: rgb(69, 99, 236);
   }
   100%{
-    background-color: #29f033;
-  }
+  background-color: rgb(255, 41, 59);
+}
 }
 a{
   text-decoration: none;
